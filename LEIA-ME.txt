@@ -1,0 +1,15 @@
+VINIL - passo a passo
+
+1) Crie uma conta gratis em github.com
+2) Clique em "New repository". Nome: vinil. Deixe Public. Clique em "Create repository".
+3) Clique em "uploading an existing file". Envie TUDO desta pasta (descompactada):
+   index.html, manifest.webmanifest, sw.js e a pasta icons com os 3 PNGs.
+   (Se o GitHub nao deixar enviar a pasta, crie-a pelo botao Add file > Create new file
+   digitando icons/x e envie os PNGs dentro dela, ou use um computador.)
+   Clique em "Commit changes".
+4) Va em Settings > Pages. Em "Branch" escolha main e a pasta /(root). Salve.
+5) Espere 1 a 2 minutos. O endereco sera: https://SEU-USUARIO.github.io/vinil/
+6) Abra o endereco no Chrome do Android. Toque em ⋮ > Instalar app. Ja funciona offline.
+7) Para gerar o APK: abra pwabuilder.com, cole o endereco, toque em Start,
+   depois Package for stores > Android > Generate. Baixe o .zip, extraia o .apk.
+8) No Android, abra o .apk e permita "Instalar apps desconhecidos" quando pedir.
